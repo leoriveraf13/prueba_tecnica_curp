@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 7em;
+  font-family: "Roboto",sans-serif;
+}
+
+.curp-body {
+  margin: 30px;
+}
+
+.layout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.curp-data{
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: -webkit-fill-available;
+}
+
+.label-form {
+  margin-right: 2rem;
+}
+
+input {
+  width: 20rem;
+  border: 2px solid;
+  height: max-content;
+}
+
+.error-message {
+  color: red;
+}
